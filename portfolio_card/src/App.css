@@ -1,0 +1,136 @@
+.app {
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+.theme{
+  margin:0 auto;
+  align-items: right;
+  padding-left: 800px;
+  padding-top: 5rem;
+}
+/* Base button styles */
+.theme-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Light Theme Styles */
+.theme-button.light {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme Styles */
+.theme-button.dark {
+    background-color: #1E88E5; /* Blue */
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Disabled State */
+.theme-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+.buttons{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.buttons button{
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-weight: 500;
+}
+.portcard{
+    margin: 40px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.header{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-top: 1%;
+}
+.header h1{
+    font-size: 1.5rem;
+}
+.header_css{
+    max-width:400px;
+    height: 2px;
+    background-color: white;
+}
+.avatarimg{
+    border-radius: 50%;
+    border: 4px solid #764ba2;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.avatar{
+    padding-left: 50px;
+    padding-right: 90px;
+    align-items: left;
+}
+.description{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: #333;
+    width:8rem;
+    padding-right: 1.5rem;
+}
+.detailh{
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #764ba2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.skillh{
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #764ba2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.skillcon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 5px;
+}
+.skill{
+    background-color: #667eea;
+    padding: 5px 12px;
+    color: white;
+    border-radius: 0.9rem;
+    margin-left: 10px;
+}
+.skill:hover{
+    background-color: #764ba2;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+.portcard:hover{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+.profhead{
+    display: flex;
+    flex-wrap: wrap;
+}
